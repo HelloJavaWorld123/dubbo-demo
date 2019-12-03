@@ -1,1 +1,5 @@
-
+server:
+  port: 18880
+spring:
+  application:
+    name: dubbo-application-consumer

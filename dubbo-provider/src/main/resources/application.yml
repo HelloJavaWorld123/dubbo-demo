@@ -1,1 +1,5 @@
-
+server:
+  port: 18881
+spring:
+  application:
+    name: application-dubbo-provider

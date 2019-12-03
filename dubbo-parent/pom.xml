@@ -25,6 +25,9 @@
         <project.reporting.outputEncoding>${project.encoding}</project.reporting.outputEncoding>
         <!--依赖版本-->
         <dubbo.version>2.7.4.1</dubbo.version>
+        <!--apache 工具类-->
+        <apache.lang3.version>3.9</apache.lang3.version>
+        <apache.collection4.version>4.4</apache.collection4.version>
     </properties>
 
     <dependencyManagement>
@@ -41,6 +44,17 @@
                 <version>1.2.62</version>
             </dependency>
 
+            <dependency>
+                <groupId>org.apache.commons</groupId>
+                <artifactId>commons-collections4</artifactId>
+                <version>${apache.collection4.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.apache.commons</groupId>
+                <artifactId>commons-lang3</artifactId>
+                <version>${apache.lang3.version}</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 
