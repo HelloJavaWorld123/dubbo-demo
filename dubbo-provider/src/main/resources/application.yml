@@ -3,3 +3,5 @@ server:
 spring:
   application:
     name: application-dubbo-provider
+  profiles:
+    active: dev

@@ -1,0 +1,8 @@
+dubbo:
+  application:
+    id: demo-application-provider
+    name: demo-dubbo-application-provider
+    version: 1.0.0
+    environment: dev
+    owner: RWX
+    organization: RWX.com.cn
